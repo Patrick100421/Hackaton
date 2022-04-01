@@ -1,0 +1,236 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+body{
+    background-color: rgb(212, 212, 224);
+}
+/*------Menu-------*/
+ul, ol{
+    list-style: none;
+}
+header{
+    font-size: 150%;
+    list-style: none;
+    padding: 0%;
+    background-color: aliceblue;
+    width: 85%;
+    max-width: 1900px;
+    height: 67.5px;
+    margin: auto;
+    margin-left: 15%;
+    left: 0%;
+    right: 500px;   
+    display: block;
+    float: left;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(194, 164, 108);
+    padding: 20px;
+    display: block;
+
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+}
+.menu li:hover > ul{
+    display: block;
+}
+/*.menu li{
+    display: inline-block;
+    text-align: center;
+}*/
+
+.menu li a:hover{
+    background-color: rgb(56, 55, 55);
+    color: antiquewhite;
+    animation-duration: 1.5s;
+}
+
+.menu > li{
+    float: left;
+}
+.p{
+    width: 500px;
+    height: 250px
+}
+/*--------Cuerpo--------*/
+/*----------------------*/
+h1{
+    font-size: 100px;
+}
+
+.banner{
+    position: relative;
+    width: 15%;
+    height: 768px;
+    color: rgb(194, 164, 108);
+    background-color: aliceblue;
+    float: left;
+    margin-right: 2%;
+}
+h3{
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5%;
+    padding-bottom: 10%;
+
+}
+.precio{
+    font-size: 22px;
+    padding-left: 50px;
+}
+.p1d{
+    background-color: rgb(194, 164, 108);
+    color: whitesmoke;
+    padding-left: 20px;
+    font-size: 18px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.p1d:hover{
+    color: rgb(194, 164, 108);
+    background-color: rgb(56, 55, 55);
+}
+.p2d{
+    color: rgb(194, 164, 108);
+    padding-left: 20px;
+    font-size: 18px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.p3d{  
+    background-color: rgb(194, 164, 108);
+    color: whitesmoke;
+    padding-left: 20px;
+    font-size: 18px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.p3d:hover{
+    color: rgb(194, 164, 108);
+    background-color: rgb(56, 55, 55);
+}
+
+/*---------------CARRUSEL-----------*/
+.carrusel{
+    padding-top: 2%;
+    float: left;
+    width: 50%;
+    max-width: 120px;
+    background-color: lightblue;
+}
+.carrusel .grande{
+    width: 200%;
+    background-color: orange;
+}
+.carrusel .img{
+    width: calc(1000%/2);
+    background-color: lime;
+}
+.carrusel .puntos{
+    width: 100%;
+    background-color: red;
+    padding: 2%;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel .punto{
+    width: 5%;
+    height: 5%;
+    margin: 2%;
+}
+
+
+
+.principal{
+    
+    background-color: rgb(56, 55, 55);
+    height: 10px;
+    width: 50%;
+}
+
+.contenedor-galeria{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.img-galeria{
+    object-fit: cover;
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 5%;
+}
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: rgb(194, 164, 108);
+    margin-bottom: 40px;
+    font-size: 60px;
+    padding-top: 8%;
+    
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.experts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont-expert{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.cont-expert img{
+    width: 80%;
+    display: block;
+    margin:0 auto;
+}
+
+.n-expert{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+}
+/* footer */
+
+footer{
+    background: #9f8ad0;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us{
+    width: 40%;
+    color: #fff;
+}
